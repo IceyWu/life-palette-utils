@@ -3,7 +3,7 @@
 <!-- automd:badges color=yellow -->
 
 [![npm version](https://img.shields.io/npm/v/@life-palette/utils?color=yellow)](https://npmjs.com/package/@life-palette/utils)
-[![npm downloads](https://img.shields.io/npm/dm/@life-palette/utils?color=yellow)](https://npmjs.com/package/@life-palette/utils)
+[![npm downloads](https://img.shields.io/npm/dm/@life-palette/utils?color=yellow)](https://npm.chart.dev/@life-palette/utils)
 
 <!-- /automd -->
 
@@ -30,6 +30,9 @@ pnpm install @life-palette/utils
 
 # bun
 bun install @life-palette/utils
+
+# deno
+deno install @life-palette/utils
 ```
 
 <!-- /automd -->
@@ -38,7 +41,7 @@ Import:
 
 <!-- automd:jsimport cjs cdn name="pkg" -->
 
-**ESM** (Node.js, Bun)
+**ESM** (Node.js, Bun, Deno)
 
 ```js
 import {} from "pkg";
