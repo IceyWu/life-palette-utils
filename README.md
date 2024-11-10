@@ -1,9 +1,9 @@
-# packageName
+# @life-palette/utils
 
 <!-- automd:badges color=yellow -->
 
-[![npm version](https://img.shields.io/npm/v/packageName?color=yellow)](https://npmjs.com/package/packageName)
-[![npm downloads](https://img.shields.io/npm/dm/packageName?color=yellow)](https://npmjs.com/package/packageName)
+[![npm version](https://img.shields.io/npm/v/@life-palette/utils?color=yellow)](https://npmjs.com/package/@life-palette/utils)
+[![npm downloads](https://img.shields.io/npm/dm/@life-palette/utils?color=yellow)](https://npmjs.com/package/@life-palette/utils)
 
 <!-- /automd -->
 
@@ -17,19 +17,19 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install packageName
+npx nypm install @life-palette/utils
 
 # npm
-npm install packageName
+npm install @life-palette/utils
 
 # yarn
-yarn add packageName
+yarn add @life-palette/utils
 
 # pnpm
-pnpm install packageName
+pnpm install @life-palette/utils
 
 # bun
-bun install packageName
+bun install @life-palette/utils
 ```
 
 <!-- /automd -->
@@ -76,11 +76,11 @@ import {} from "https://esm.sh/pkg";
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/unjs/packageName/blob/main/LICENSE) license.
-Made by [community](https://github.com/unjs/packageName/graphs/contributors) 💛
+Published under the [MIT](https://github.com/IceyWu/life-palette-utils/blob/main/LICENSE) license.
+Made by [community](https://github.com/IceyWu/life-palette-utils/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/unjs/packageName/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=unjs/packageName" />
+<a href="https://github.com/IceyWu/life-palette-utils/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=IceyWu/life-palette-utils" />
 </a>
 
 <!-- /automd -->
