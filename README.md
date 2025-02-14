@@ -44,36 +44,21 @@ Import:
 **ESM** (Node.js, Bun, Deno)
 
 ```js
-import {} from "pkg";
+import {} from "@life-palette/utils";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("pkg");
+const {} = require("@life-palette/utils");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import {} from "https://esm.sh/pkg";
+import {} from "https://esm.sh/@life-palette/utils";
 ```
 
-<!-- /automd -->
-
-## Development
-
-<details>
-
-<summary>local development</summary>
-
-- Clone this repository
-- Install latest LTS version of [Node.js](https://nodejs.org/en/)
-- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
-- Install dependencies using `pnpm install`
-- Run interactive tests using `pnpm dev`
-
-</details>
 
 ## License
 
@@ -86,12 +71,3 @@ Made by [community](https://github.com/IceyWu/life-palette-utils/graphs/contribu
 <img src="https://contrib.rocks/image?repo=IceyWu/life-palette-utils" />
 </a>
 
-<!-- /automd -->
-
-<!-- automd:with-automd -->
-
----
-
-_🤖 auto updated with [automd](https://automd.unjs.io)_
-
-<!-- /automd -->
