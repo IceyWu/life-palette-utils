@@ -1,8 +1,18 @@
 # Changelog
 
+## v0.0.2
+
+[compare changes](https://github.com/IceyWu/life-palette-utils/compare/v0.0.1...v0.0.2)
+
+### 🩹 Fixes
+
+- 调整图片解析逻辑 ([8e06091](https://github.com/IceyWu/life-palette-utils/commit/8e06091))
+
+### ❤️ Contributors
+
+- IceyWu ([@Life-Palette](http://github.com/Life-Palette))
 
 ## v0.0.1
-
 
 ### 🚀 Enhancements
 
@@ -15,4 +25,3 @@
 ### ❤️ Contributors
 
 - IceyWu ([@Life-Palette](http://github.com/Life-Palette))
-
