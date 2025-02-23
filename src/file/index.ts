@@ -1,14 +1,14 @@
 import { customDestr, getObjVal } from "@iceywu/utils";
 
 // 定义 Exif 数据的类型
-interface ExifData {
+export interface ExifData {
   Make?: {
     value: string;
   };
 }
 
 // 定义 data 对象的类型
-interface FileData {
+export interface FileData {
   url?: string;
   type?: string;
   videoSrc?: string | null;
@@ -19,7 +19,7 @@ interface FileData {
 }
 
 // 定义 options 对象的类型
-interface Options {
+export interface ParseOptions {
   format?: string;
   resize?: number;
 }
@@ -41,7 +41,7 @@ export function isIphoneImg(data: FileData): boolean {
  * @param options 配置参数，包含 format 和 resize 选项
  * @returns 处理后的文件信息对象
  */
-export function fileParse(data: FileData, _options?: Options): FileData {
+export function fileParse(data: FileData, _options?: ParseOptions): FileData {
   const { url = "", type = "image/jpeg", cover = "", fromIphone } = data || {};
   const fileType = type.toUpperCase().includes("VIDEO") ? "VIDEO" : "IMAGE";
   const file = url;

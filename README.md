@@ -1,7 +1,5 @@
 # @life-palette/utils
 
-<!-- automd:badges color=yellow -->
-
 [![npm version](https://img.shields.io/npm/v/@life-palette/utils?color=yellow)](https://npmjs.com/package/@life-palette/utils)
 [![npm downloads](https://img.shields.io/npm/dm/@life-palette/utils?color=yellow)](https://npm.chart.dev/@life-palette/utils)
 
@@ -59,7 +57,6 @@ const {} = require("@life-palette/utils");
 import {} from "https://esm.sh/@life-palette/utils";
 ```
 
-
 ## License
 
 <!-- automd:contributors license=MIT -->
@@ -70,4 +67,3 @@ Made by [community](https://github.com/IceyWu/life-palette-utils/graphs/contribu
 <a href="https://github.com/IceyWu/life-palette-utils/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=IceyWu/life-palette-utils" />
 </a>
-
