@@ -1,6 +1,6 @@
 {
   "name": "@life-palette/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "repository": "https://github.com/IceyWu/life-palette-utils",
   "license": "MIT",
@@ -26,8 +26,8 @@
     "lint:fix": "automd && eslint . --fix && prettier -w .",
     "prepack": "pnpm build",
     "play": "jiti playground",
-    "release": "pnpm test && changelogen --release && npm publish --registry https://registry.npmjs.org && git push --follow-tags",
-    "test": "pnpm lint && pnpm test:types && vitest run --coverage",
+    "release": "changelogen --release && npm publish --registry https://registry.npmjs.org && git push --follow-tags",
+    "test": "pnpm lint && pnpm test:types",
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {

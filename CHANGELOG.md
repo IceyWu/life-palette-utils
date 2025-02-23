@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.0.3
+
+[compare changes](https://github.com/IceyWu/life-palette-utils/compare/v0.0.2...v0.0.3)
+
+### 🚀 Enhancements
+
+- 增加type导出 ([444a3e9](https://github.com/IceyWu/life-palette-utils/commit/444a3e9))
+
+### 🏡 Chore
+
+- Update README.md ([99e28b3](https://github.com/IceyWu/life-palette-utils/commit/99e28b3))
+
+### ❤️ Contributors
+
+- IceyWu ([@Life-Palette](http://github.com/Life-Palette))
+
 ## v0.0.2
 
 [compare changes](https://github.com/IceyWu/life-palette-utils/compare/v0.0.1...v0.0.2)
