@@ -6,3 +6,12 @@ dist
 .eslintcache
 *.log*
 *.env*
+
+# Monorepo
+packages/*/dist
+packages/*/node_modules
+playground/dist
+playground/node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/node_modules
