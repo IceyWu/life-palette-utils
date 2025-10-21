@@ -42,12 +42,12 @@ if (files && files[0]) {
 
 ## 文档
 
-📖 **完整文档**: http://localhost:5174/guide/api.html
+📖 **完整文档**: https://life-palette-utils.netlify.app/guide/api.html
 
-- [快速开始](http://localhost:5174/guide/getting-started.html)
-- [API 文档](http://localhost:5174/guide/api.html)
-- [发版说明](http://localhost:5174/guide/release.html)
-- [Changelog](http://localhost:5174/changelog.html)
+- [快速开始](https://life-palette-utils.netlify.app/guide/getting-started.html)
+- [API 文档](https://life-palette-utils.netlify.app/guide/api.html)
+- [发版说明](https://life-palette-utils.netlify.app/guide/release.html)
+- [Changelog](https://life-palette-utils.netlify.app/changelog.html)
 
 ## 在线演示
 
