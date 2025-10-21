@@ -106,6 +106,7 @@ export interface FileSelectOptions {
  * 触发文件选择器
  * @param options 文件选择配置项
  * @returns 返回一个 Promise，resolve 时返回选中的文件列表
+ * @throws 如果在非浏览器环境中调用，会抛出错误
  * @example
  * ```ts
  * // 基础用法
@@ -127,6 +128,11 @@ export interface FileSelectOptions {
 export function selectFile(
   options: FileSelectOptions = {},
 ): Promise<FileList | null> {
+  // 检查是否在浏览器环境
+  if (typeof document === 'undefined') {
+    return Promise.reject(new Error('selectFile() can only be used in browser environment'));
+  }
+
   const {
     accept = "*",
     multiple = false,
@@ -204,6 +210,7 @@ export function selectFile(
  * @param file 要读取的文件
  * @param readAs 读取方式，默认为 'dataURL'
  * @returns 返回一个 Promise，resolve 时返回文件内容
+ * @throws 如果在非浏览器环境中调用，会抛出错误
  * @example
  * ```ts
  * const files = await selectFile({ accept: 'image/*' });
@@ -217,6 +224,11 @@ export function readFile(
   file: File,
   readAs: "dataURL" | "text" | "arrayBuffer" | "binaryString" = "dataURL",
 ): Promise<string | ArrayBuffer | null> {
+  // 检查是否在浏览器环境
+  if (typeof FileReader === 'undefined') {
+    return Promise.reject(new Error('readFile() can only be used in browser environment'));
+  }
+
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
 
