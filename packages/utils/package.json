@@ -1,6 +1,6 @@
 {
   "name": "@life-palette/utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "一个实用的工具库，提供文件处理、文件选择等常用功能",
   "repository": "https://github.com/IceyWu/life-palette-utils",
   "license": "MIT",
