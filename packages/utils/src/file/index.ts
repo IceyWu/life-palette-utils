@@ -129,8 +129,10 @@ export function selectFile(
   options: FileSelectOptions = {},
 ): Promise<FileList | null> {
   // 检查是否在浏览器环境
-  if (typeof document === 'undefined') {
-    return Promise.reject(new Error('selectFile() can only be used in browser environment'));
+  if (typeof document === "undefined") {
+    return Promise.reject(
+      new Error("selectFile() can only be used in browser environment"),
+    );
   }
 
   const {
@@ -225,8 +227,10 @@ export function readFile(
   readAs: "dataURL" | "text" | "arrayBuffer" | "binaryString" = "dataURL",
 ): Promise<string | ArrayBuffer | null> {
   // 检查是否在浏览器环境
-  if (typeof FileReader === 'undefined') {
-    return Promise.reject(new Error('readFile() can only be used in browser environment'));
+  if (typeof FileReader === "undefined") {
+    return Promise.reject(
+      new Error("readFile() can only be used in browser environment"),
+    );
   }
 
   return new Promise((resolve, reject) => {
