@@ -15,9 +15,10 @@
     "play": "pnpm --filter playground dev",
     "docs:dev": "pnpm --filter docs dev",
     "docs:build": "pnpm --filter docs build",
-    "release": "node scripts/pre-release.js && pnpm --filter @life-palette/utils release && pnpm sync-changelog",
+    "release": "node scripts/pre-release.js && changelogen --release && node scripts/sync-version.js && node scripts/sync-changelog.js && git push --follow-tags && pnpm --filter @life-palette/utils publish",
     "changelog": "changelogen --output CHANGELOG.md",
-    "sync-changelog": "node scripts/sync-changelog.js"
+    "sync-changelog": "node scripts/sync-changelog.js",
+    "sync-version": "node scripts/sync-version.js"
   },
   "devDependencies": {
     "@types/node": "^24.9.1",

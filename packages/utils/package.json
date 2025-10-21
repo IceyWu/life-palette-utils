@@ -17,13 +17,14 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
     "test": "vitest run",
-    "release": "changelogen --release --push && npm publish"
+    "publish": "npm publish"
   },
   "dependencies": {
     "@iceywu/utils": "^0.0.49"
